@@ -1,0 +1,15 @@
+.footer__link-navigation {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+
+@media screen and (max-width: 320px) {
+  .footer__link-navigation {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
