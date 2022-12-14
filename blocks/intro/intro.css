@@ -1,6 +1,7 @@
 .intro {
   max-width: calc(100% - 590px);
   margin: 92px 442px 92px 148px;
+  font-family: "Inter", Arial, sans-serif;
 }
 @media screen and (max-width: 1024px) {
   .intro {

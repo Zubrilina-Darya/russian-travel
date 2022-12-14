@@ -1,10 +1,7 @@
 .place__paragraph {
   margin: 0 0 26px 0;
   color: #ffffff;
-  max-width: 484px;
   justify-items: start;
-  font-family: "Inter";
-  font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 29px;
@@ -27,8 +24,6 @@
 @media screen and (max-width: 320px) {
   .place__paragraph {
     margin: 0 16px 25px 16px;
-    font-size: 16px;
     max-width: 288px;
-    line-height: 26px;
   }
 }

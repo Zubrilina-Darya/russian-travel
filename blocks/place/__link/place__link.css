@@ -1,12 +1,13 @@
 .place__link {
   color: inherit;
-  font-family: "Inter";
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
   text-decoration-line: underline;
+  transition: opacity 0.3s ease;
 }
 
 .place__link:hover {
   cursor: pointer;
+  opacity: 0.8;
 }

@@ -2,6 +2,7 @@
   max-width: calc(100% - 296px);
   margin: 56px auto 92px auto;
   justify-content: center;
+  font-family: "Inter", Arial, sans-serif;
   color: white;
 }
 @media screen and (max-width: 1024px) {

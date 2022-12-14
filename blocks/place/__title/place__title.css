@@ -1,8 +1,6 @@
 .place__title {
   grid-area: title;
   text-align: left;
-  font-family: "Inter";
-  font-style: normal;
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
@@ -15,18 +13,13 @@
   .place__title {
     font-size: 42px;
     line-height: 46px;
-    min-height: 92px;
-    text-align: left;
-    font-weight: 900;
+    align-self: end;
     padding-right: 8%;
   }
 }
 
 @media screen and (max-width: 320px) {
   .place__title {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 900;
     font-size: 32px;
     line-height: 35px;
     text-align: start;
