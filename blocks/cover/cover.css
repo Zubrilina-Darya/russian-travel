@@ -1,5 +1,4 @@
 .cover {
-  background-position: center center;
   background: no-repeat;
   background-image: url(../../images/cover-trains.jpg);
   margin: 0 48px 92px 48px;
@@ -13,6 +12,7 @@
   font-family: "Inter", Arial, sans-serif;
   min-height: 740px;
   object-fit: cover;
+  background-position: 50% 50%; /*Центрирование фоновой картинки, значение задано в процентах*/
 }
 
 @media screen and (max-width: 1024px) {

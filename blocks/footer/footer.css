@@ -5,6 +5,7 @@
   justify-content: space-between;
   margin: 0 auto 24px auto;
   font-family: "Inter", Arial, sans-serif;
+  align-items: center;
 }
 
 @media screen and (max-width: 768px) {
@@ -13,9 +14,15 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 450px) {
   .footer {
     flex-direction: column;
+    margin: 0 0 24px 10px;
+    align-items: flex-start;
+  }
+}
+@media screen and (max-width: 320px) {
+  .footer {
     max-width: calc(100% - 134px);
     margin: 0 0 24px 16px;
   }

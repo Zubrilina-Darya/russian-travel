@@ -8,9 +8,9 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 450px) {
   .footer__link-element {
-    margin-bottom: 32px;
+    margin: 0 0 32px 0;
   }
 }
 

@@ -9,6 +9,10 @@
   margin-bottom: 80px;
   font-family: "Inter", Arial, sans-serif;
 }
+.place:last-child {
+  margin-bottom: 0;
+}
+
 @media screen and (max-width: 1024px) {
   .place {
     column-gap: 32px;
@@ -20,7 +24,7 @@
   .place {
     column-gap: 30px;
     grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
-    margin-bottom: 72px;
+    margin-bottom: 73px;
   }
 }
 
@@ -28,7 +32,6 @@
   .place {
     column-gap: 28px;
     grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
-    margin-bottom: 72px;
   }
 }
 
@@ -47,17 +50,7 @@
 
 @media screen and (max-width: 320px) {
   .place {
-    grid-template-areas:
-      "title"
-      "website"
-      "image"
-      "description";
-    grid-template-columns: 1fr;
     margin-bottom: 50px;
     row-gap: 32px;
   }
-}
-
-.place:last-child {
-  margin-bottom: 0;
 }
